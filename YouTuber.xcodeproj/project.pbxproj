@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93B54321925877400B5C404 /* YTDownloadsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A93B54301925877400B5C404 /* YTDownloadsViewController.h */; };
+		A93B54331925877400B5C404 /* YTDownloadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B54311925877400B5C404 /* YTDownloadsViewController.m */; };
+		A93C659F1928228A00D50E11 /* HCYoutubeParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A93C65871928228A00D50E11 /* HCYoutubeParser.h */; };
+		A93C65A01928228A00D50E11 /* HCYoutubeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A93C65881928228A00D50E11 /* HCYoutubeParser.m */; };
+		A93C65A11928228A00D50E11 /* MTStatusBarOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = A93C658D1928228A00D50E11 /* MTStatusBarOverlay.h */; };
+		A93C65A21928228A00D50E11 /* MTStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = A93C658E1928228A00D50E11 /* MTStatusBarOverlay.m */; };
+		A93C65A31928228A00D50E11 /* MTStatusBarOverlay_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A93C65931928228A00D50E11 /* MTStatusBarOverlay_Prefix.pch */; };
+		A93C65A41928228A00D50E11 /* ProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A93C65981928228A00D50E11 /* ProgressHUD.h */; };
+		A93C65A51928228A00D50E11 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A93C65991928228A00D50E11 /* ProgressHUD.m */; };
+		A93C65A61928228A00D50E11 /* WYPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = A93C659B1928228A00D50E11 /* WYPopoverController.h */; };
+		A93C65A71928228A00D50E11 /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93C659C1928228A00D50E11 /* WYPopoverController.m */; };
+		A93C65A81928228A00D50E11 /* WYStoryboardPopoverSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = A93C659D1928228A00D50E11 /* WYStoryboardPopoverSegue.h */; };
+		A93C65A91928228A00D50E11 /* WYStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A93C659E1928228A00D50E11 /* WYStoryboardPopoverSegue.m */; };
+		A95AE0211923B82B0039D78A /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A95AE00E1923B82B0039D78A /* AFHTTPClient.h */; };
+		A95AE0221923B82B0039D78A /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A95AE00F1923B82B0039D78A /* AFHTTPClient.m */; };
+		A95AE0231923B82B0039D78A /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A95AE0101923B82B0039D78A /* AFHTTPRequestOperation.h */; };
+		A95AE0241923B82B0039D78A /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A95AE0111923B82B0039D78A /* AFHTTPRequestOperation.m */; };
+		A95AE0251923B82B0039D78A /* AFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A95AE0121923B82B0039D78A /* AFImageRequestOperation.h */; };
+		A95AE0261923B82B0039D78A /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A95AE0131923B82B0039D78A /* AFImageRequestOperation.m */; };
+		A95AE0271923B82B0039D78A /* AFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A95AE0141923B82B0039D78A /* AFJSONRequestOperation.h */; };
+		A95AE0281923B82B0039D78A /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A95AE0151923B82B0039D78A /* AFJSONRequestOperation.m */; };
+		A95AE0291923B82B0039D78A /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A95AE0161923B82B0039D78A /* AFNetworkActivityIndicatorManager.h */; };
+		A95AE02A1923B82B0039D78A /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A95AE0171923B82B0039D78A /* AFNetworkActivityIndicatorManager.m */; };
+		A95AE02B1923B82B0039D78A /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A95AE0181923B82B0039D78A /* AFNetworking.h */; };
+		A95AE02C1923B82B0039D78A /* AFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A95AE0191923B82B0039D78A /* AFPropertyListRequestOperation.h */; };
+		A95AE02D1923B82B0039D78A /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A95AE01A1923B82B0039D78A /* AFPropertyListRequestOperation.m */; };
+		A95AE02E1923B82B0039D78A /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A95AE01B1923B82B0039D78A /* AFURLConnectionOperation.h */; };
+		A95AE02F1923B82B0039D78A /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A95AE01C1923B82B0039D78A /* AFURLConnectionOperation.m */; };
+		A95AE0301923B82B0039D78A /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A95AE01D1923B82B0039D78A /* AFXMLRequestOperation.h */; };
+		A95AE0311923B82B0039D78A /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A95AE01E1923B82B0039D78A /* AFXMLRequestOperation.m */; };
+		A95AE0321923B82B0039D78A /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A95AE01F1923B82B0039D78A /* UIImageView+AFNetworking.h */; };
+		A95AE0331923B82B0039D78A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A95AE0201923B82B0039D78A /* UIImageView+AFNetworking.m */; };
+		A95AE0351923BD340039D78A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95AE0341923BD340039D78A /* SystemConfiguration.framework */; };
+		A95AE0371923BD3A0039D78A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95AE0361923BD3A0039D78A /* Security.framework */; };
+		A95AE0391923BD400039D78A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95AE0381923BD400039D78A /* MobileCoreServices.framework */; };
+		A95AE03B1923BEC90039D78A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95AE03A1923BEC90039D78A /* QuartzCore.framework */; };
+		A98E0C7719264627004D0215 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98E0C7619264627004D0215 /* QuickLook.framework */; };
+		A991F408191D8731003AB7D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A991F407191D8731003AB7D3 /* Foundation.framework */; };
+		A991F413191D8731003AB7D3 /* YouTuber.mm in Sources */ = {isa = PBXBuildFile; fileRef = A991F412191D8731003AB7D3 /* YouTuber.mm */; };
+		A991F41E191D873F003AB7D3 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A991F41D191D873F003AB7D3 /* libsubstrate.dylib */; };
+		A991F420191D8743003AB7D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A991F41F191D8743003AB7D3 /* UIKit.framework */; };
+		A9CCC5B41924CAE0001ED4D3 /* VideoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9CCC5B21924CAE0001ED4D3 /* VideoViewController.h */; };
+		A9CCC5B51924CAE0001ED4D3 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CCC5B31924CAE0001ED4D3 /* VideoViewController.m */; };
+		A9CCC5B71924CAFE001ED4D3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CCC5B61924CAFE001ED4D3 /* MediaPlayer.framework */; };
+		A9CCC5B91924CB01001ED4D3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CCC5B81924CB01001ED4D3 /* AVFoundation.framework */; };
+		A9CCC5BB1924CB05001ED4D3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CCC5BA1924CB05001ED4D3 /* AssetsLibrary.framework */; };
+		A9CCC5BD1924CB0E001ED4D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CCC5BC1924CB0E001ED4D3 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A93C65AB1928228A00D50E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93C65901928228A00D50E11 /* MTStatusBarOverlay.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = MTStatusBarOverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A93B54301925877400B5C404 /* YTDownloadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTDownloadsViewController.h; sourceTree = "<group>"; };
+		A93B54311925877400B5C404 /* YTDownloadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTDownloadsViewController.m; sourceTree = "<group>"; };
+		A93C65871928228A00D50E11 /* HCYoutubeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCYoutubeParser.h; sourceTree = "<group>"; };
+		A93C65881928228A00D50E11 /* HCYoutubeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCYoutubeParser.m; sourceTree = "<group>"; };
+		A93C658A1928228A00D50E11 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		A93C658B1928228A00D50E11 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A93C658C1928228A00D50E11 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A93C658D1928228A00D50E11 /* MTStatusBarOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStatusBarOverlay.h; sourceTree = "<group>"; };
+		A93C658E1928228A00D50E11 /* MTStatusBarOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStatusBarOverlay.m; sourceTree = "<group>"; };
+		A93C658F1928228A00D50E11 /* MTStatusBarOverlay.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MTStatusBarOverlay.podspec; sourceTree = "<group>"; };
+		A93C65901928228A00D50E11 /* MTStatusBarOverlay.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MTStatusBarOverlay.xcodeproj; sourceTree = "<group>"; };
+		A93C65931928228A00D50E11 /* MTStatusBarOverlay_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStatusBarOverlay_Prefix.pch; sourceTree = "<group>"; };
+		A93C65941928228A00D50E11 /* Readme.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.mdown; sourceTree = "<group>"; };
+		A93C65951928228A00D50E11 /* TODO.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.mdown; sourceTree = "<group>"; };
+		A93C65971928228A00D50E11 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		A93C65981928228A00D50E11 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		A93C65991928228A00D50E11 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		A93C659B1928228A00D50E11 /* WYPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopoverController.h; sourceTree = "<group>"; };
+		A93C659C1928228A00D50E11 /* WYPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopoverController.m; sourceTree = "<group>"; };
+		A93C659D1928228A00D50E11 /* WYStoryboardPopoverSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYStoryboardPopoverSegue.h; sourceTree = "<group>"; };
+		A93C659E1928228A00D50E11 /* WYStoryboardPopoverSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYStoryboardPopoverSegue.m; sourceTree = "<group>"; };
+		A95AE00E1923B82B0039D78A /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		A95AE00F1923B82B0039D78A /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		A95AE0101923B82B0039D78A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A95AE0111923B82B0039D78A /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A95AE0121923B82B0039D78A /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		A95AE0131923B82B0039D78A /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		A95AE0141923B82B0039D78A /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		A95AE0151923B82B0039D78A /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		A95AE0161923B82B0039D78A /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A95AE0171923B82B0039D78A /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A95AE0181923B82B0039D78A /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A95AE0191923B82B0039D78A /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		A95AE01A1923B82B0039D78A /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		A95AE01B1923B82B0039D78A /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A95AE01C1923B82B0039D78A /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A95AE01D1923B82B0039D78A /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		A95AE01E1923B82B0039D78A /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		A95AE01F1923B82B0039D78A /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A95AE0201923B82B0039D78A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A95AE0341923BD340039D78A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A95AE0361923BD3A0039D78A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A95AE0381923BD400039D78A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A95AE03A1923BEC90039D78A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A98E0C7619264627004D0215 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		A991F404191D8731003AB7D3 /* YouTuber.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = YouTuber.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A991F407191D8731003AB7D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A991F40C191D8731003AB7D3 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		A991F40D191D8731003AB7D3 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		A991F40F191D8731003AB7D3 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		A991F410191D8731003AB7D3 /* YouTuber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YouTuber-Prefix.pch"; sourceTree = "<group>"; };
+		A991F411191D8731003AB7D3 /* YouTuber.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YouTuber.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A991F412191D8731003AB7D3 /* YouTuber.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YouTuber.mm; sourceTree = "<group>"; };
+		A991F417191D8731003AB7D3 /* YouTuber.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = YouTuber.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/YouTuber.plist; sourceTree = "<group>"; };
+		A991F41D191D873F003AB7D3 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		A991F41F191D8743003AB7D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9CCC5B21924CAE0001ED4D3 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		A9CCC5B31924CAE0001ED4D3 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		A9CCC5B61924CAFE001ED4D3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A9CCC5B81924CB01001ED4D3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A9CCC5BA1924CB05001ED4D3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A9CCC5BC1924CB0E001ED4D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A991F400191D8731003AB7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98E0C7719264627004D0215 /* QuickLook.framework in Frameworks */,
+				A9CCC5BD1924CB0E001ED4D3 /* CoreGraphics.framework in Frameworks */,
+				A9CCC5BB1924CB05001ED4D3 /* AssetsLibrary.framework in Frameworks */,
+				A9CCC5B91924CB01001ED4D3 /* AVFoundation.framework in Frameworks */,
+				A9CCC5B71924CAFE001ED4D3 /* MediaPlayer.framework in Frameworks */,
+				A95AE03B1923BEC90039D78A /* QuartzCore.framework in Frameworks */,
+				A95AE0391923BD400039D78A /* MobileCoreServices.framework in Frameworks */,
+				A95AE0371923BD3A0039D78A /* Security.framework in Frameworks */,
+				A95AE0351923BD340039D78A /* SystemConfiguration.framework in Frameworks */,
+				A991F420191D8743003AB7D3 /* UIKit.framework in Frameworks */,
+				A991F408191D8731003AB7D3 /* Foundation.framework in Frameworks */,
+				A991F41E191D873F003AB7D3 /* libsubstrate.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93B542C1925859300B5C404 /* YouTuber */ = {
+			isa = PBXGroup;
+			children = (
+				A9CCC5B21924CAE0001ED4D3 /* VideoViewController.h */,
+				A9CCC5B31924CAE0001ED4D3 /* VideoViewController.m */,
+				A93B54301925877400B5C404 /* YTDownloadsViewController.h */,
+				A93B54311925877400B5C404 /* YTDownloadsViewController.m */,
+				A991F411191D8731003AB7D3 /* YouTuber.xm */,
+				A991F412191D8731003AB7D3 /* YouTuber.mm */,
+			);
+			name = YouTuber;
+			sourceTree = "<group>";
+		};
+		A93C65861928228A00D50E11 /* HCYoutubeParser */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65871928228A00D50E11 /* HCYoutubeParser.h */,
+				A93C65881928228A00D50E11 /* HCYoutubeParser.m */,
+			);
+			path = HCYoutubeParser;
+			sourceTree = "<group>";
+		};
+		A93C65891928228A00D50E11 /* MTStatusBarOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				A93C658A1928228A00D50E11 /* .gitattributes */,
+				A93C658B1928228A00D50E11 /* .gitignore */,
+				A93C658C1928228A00D50E11 /* LICENSE */,
+				A93C658D1928228A00D50E11 /* MTStatusBarOverlay.h */,
+				A93C658E1928228A00D50E11 /* MTStatusBarOverlay.m */,
+				A93C658F1928228A00D50E11 /* MTStatusBarOverlay.podspec */,
+				A93C65901928228A00D50E11 /* MTStatusBarOverlay.xcodeproj */,
+				A93C65931928228A00D50E11 /* MTStatusBarOverlay_Prefix.pch */,
+				A93C65941928228A00D50E11 /* Readme.mdown */,
+				A93C65951928228A00D50E11 /* TODO.mdown */,
+			);
+			path = MTStatusBarOverlay;
+			sourceTree = "<group>";
+		};
+		A93C65911928228A00D50E11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65AC1928228A00D50E11 /* libMTStatusBarOverlay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93C65961928228A00D50E11 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65971928228A00D50E11 /* ProgressHUD.bundle */,
+				A93C65981928228A00D50E11 /* ProgressHUD.h */,
+				A93C65991928228A00D50E11 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		A93C659A1928228A00D50E11 /* WYPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				A93C659B1928228A00D50E11 /* WYPopoverController.h */,
+				A93C659C1928228A00D50E11 /* WYPopoverController.m */,
+				A93C659D1928228A00D50E11 /* WYStoryboardPopoverSegue.h */,
+				A93C659E1928228A00D50E11 /* WYStoryboardPopoverSegue.m */,
+			);
+			path = WYPopoverController;
+			sourceTree = "<group>";
+		};
+		A95AE00D1923B82B0039D78A /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A95AE00E1923B82B0039D78A /* AFHTTPClient.h */,
+				A95AE00F1923B82B0039D78A /* AFHTTPClient.m */,
+				A95AE0101923B82B0039D78A /* AFHTTPRequestOperation.h */,
+				A95AE0111923B82B0039D78A /* AFHTTPRequestOperation.m */,
+				A95AE0121923B82B0039D78A /* AFImageRequestOperation.h */,
+				A95AE0131923B82B0039D78A /* AFImageRequestOperation.m */,
+				A95AE0141923B82B0039D78A /* AFJSONRequestOperation.h */,
+				A95AE0151923B82B0039D78A /* AFJSONRequestOperation.m */,
+				A95AE0161923B82B0039D78A /* AFNetworkActivityIndicatorManager.h */,
+				A95AE0171923B82B0039D78A /* AFNetworkActivityIndicatorManager.m */,
+				A95AE0181923B82B0039D78A /* AFNetworking.h */,
+				A95AE0191923B82B0039D78A /* AFPropertyListRequestOperation.h */,
+				A95AE01A1923B82B0039D78A /* AFPropertyListRequestOperation.m */,
+				A95AE01B1923B82B0039D78A /* AFURLConnectionOperation.h */,
+				A95AE01C1923B82B0039D78A /* AFURLConnectionOperation.m */,
+				A95AE01D1923B82B0039D78A /* AFXMLRequestOperation.h */,
+				A95AE01E1923B82B0039D78A /* AFXMLRequestOperation.m */,
+				A95AE01F1923B82B0039D78A /* UIImageView+AFNetworking.h */,
+				A95AE0201923B82B0039D78A /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A991F3F9191D8731003AB7D3 = {
+			isa = PBXGroup;
+			children = (
+				A991F409191D8731003AB7D3 /* YouTuber */,
+				A991F406191D8731003AB7D3 /* Frameworks */,
+				A991F405191D8731003AB7D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A991F405191D8731003AB7D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A991F404191D8731003AB7D3 /* YouTuber.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A991F406191D8731003AB7D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A98E0C7619264627004D0215 /* QuickLook.framework */,
+				A9CCC5BC1924CB0E001ED4D3 /* CoreGraphics.framework */,
+				A9CCC5BA1924CB05001ED4D3 /* AssetsLibrary.framework */,
+				A9CCC5B81924CB01001ED4D3 /* AVFoundation.framework */,
+				A9CCC5B61924CAFE001ED4D3 /* MediaPlayer.framework */,
+				A95AE03A1923BEC90039D78A /* QuartzCore.framework */,
+				A95AE0381923BD400039D78A /* MobileCoreServices.framework */,
+				A95AE0361923BD3A0039D78A /* Security.framework */,
+				A95AE0341923BD340039D78A /* SystemConfiguration.framework */,
+				A991F41F191D8743003AB7D3 /* UIKit.framework */,
+				A991F41D191D873F003AB7D3 /* libsubstrate.dylib */,
+				A991F407191D8731003AB7D3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A991F409191D8731003AB7D3 /* YouTuber */ = {
+			isa = PBXGroup;
+			children = (
+				A93B542C1925859300B5C404 /* YouTuber */,
+				A93C65861928228A00D50E11 /* HCYoutubeParser */,
+				A93C65891928228A00D50E11 /* MTStatusBarOverlay */,
+				A93C65961928228A00D50E11 /* ProgressHUD */,
+				A93C659A1928228A00D50E11 /* WYPopoverController */,
+				A95AE00D1923B82B0039D78A /* AFNetworking */,
+				A991F40A191D8731003AB7D3 /* Package */,
+				A991F40E191D8731003AB7D3 /* Supporting Files */,
+			);
+			path = YouTuber;
+			sourceTree = "<group>";
+		};
+		A991F40A191D8731003AB7D3 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				A991F40B191D8731003AB7D3 /* DEBIAN */,
+				A991F414191D8731003AB7D3 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		A991F40B191D8731003AB7D3 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				A991F40C191D8731003AB7D3 /* control.txt */,
+				A991F40D191D8731003AB7D3 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		A991F40E191D8731003AB7D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A991F40F191D8731003AB7D3 /* PackageVersion.plist */,
+				A991F410191D8731003AB7D3 /* YouTuber-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A991F414191D8731003AB7D3 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A991F415191D8731003AB7D3 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		A991F415191D8731003AB7D3 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				A991F416191D8731003AB7D3 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		A991F416191D8731003AB7D3 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				A991F417191D8731003AB7D3 /* YouTuber.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A991F401191D8731003AB7D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95AE0271923B82B0039D78A /* AFJSONRequestOperation.h in Headers */,
+				A93C65A81928228A00D50E11 /* WYStoryboardPopoverSegue.h in Headers */,
+				A9CCC5B41924CAE0001ED4D3 /* VideoViewController.h in Headers */,
+				A93C65A11928228A00D50E11 /* MTStatusBarOverlay.h in Headers */,
+				A95AE0321923B82B0039D78A /* UIImageView+AFNetworking.h in Headers */,
+				A93C659F1928228A00D50E11 /* HCYoutubeParser.h in Headers */,
+				A95AE0231923B82B0039D78A /* AFHTTPRequestOperation.h in Headers */,
+				A93C65A31928228A00D50E11 /* MTStatusBarOverlay_Prefix.pch in Headers */,
+				A95AE0251923B82B0039D78A /* AFImageRequestOperation.h in Headers */,
+				A95AE02E1923B82B0039D78A /* AFURLConnectionOperation.h in Headers */,
+				A93C65A41928228A00D50E11 /* ProgressHUD.h in Headers */,
+				A95AE0211923B82B0039D78A /* AFHTTPClient.h in Headers */,
+				A95AE0301923B82B0039D78A /* AFXMLRequestOperation.h in Headers */,
+				A95AE0291923B82B0039D78A /* AFNetworkActivityIndicatorManager.h in Headers */,
+				A93B54321925877400B5C404 /* YTDownloadsViewController.h in Headers */,
+				A93C65A61928228A00D50E11 /* WYPopoverController.h in Headers */,
+				A95AE02C1923B82B0039D78A /* AFPropertyListRequestOperation.h in Headers */,
+				A95AE02B1923B82B0039D78A /* AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A991F403191D8731003AB7D3 /* YouTuber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A991F41A191D8731003AB7D3 /* Build configuration list for PBXNativeTarget "YouTuber" */;
+			buildPhases = (
+				A991F3FE191D8731003AB7D3 /* ShellScript */,
+				A991F3FF191D8731003AB7D3 /* Sources */,
+				A991F400191D8731003AB7D3 /* Frameworks */,
+				A991F401191D8731003AB7D3 /* Headers */,
+				A991F402191D8731003AB7D3 /* Run Script */,
+				A991F421191D89AB003AB7D3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTuber;
+			productName = YouTuber;
+			productReference = A991F404191D8731003AB7D3 /* YouTuber.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A991F3FA191D8731003AB7D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A991F3FD191D8731003AB7D3 /* Build configuration list for PBXProject "YouTuber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A991F3F9191D8731003AB7D3;
+			productRefGroup = A991F405191D8731003AB7D3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A93C65911928228A00D50E11 /* Products */;
+					ProjectRef = A93C65901928228A00D50E11 /* MTStatusBarOverlay.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A991F403191D8731003AB7D3 /* YouTuber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A93C65AC1928228A00D50E11 /* libMTStatusBarOverlay.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMTStatusBarOverlay.a;
+			remoteRef = A93C65AB1928228A00D50E11 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A991F3FE191D8731003AB7D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		A991F402191D8731003AB7D3 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+		A991F421191D89AB003AB7D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ssh root@ipad \"su mobile -c 'killall YouTube'\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A991F3FF191D8731003AB7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95AE02F1923B82B0039D78A /* AFURLConnectionOperation.m in Sources */,
+				A95AE0331923B82B0039D78A /* UIImageView+AFNetworking.m in Sources */,
+				A95AE0261923B82B0039D78A /* AFImageRequestOperation.m in Sources */,
+				A95AE0241923B82B0039D78A /* AFHTTPRequestOperation.m in Sources */,
+				A9CCC5B51924CAE0001ED4D3 /* VideoViewController.m in Sources */,
+				A93C65A91928228A00D50E11 /* WYStoryboardPopoverSegue.m in Sources */,
+				A95AE0221923B82B0039D78A /* AFHTTPClient.m in Sources */,
+				A93B54331925877400B5C404 /* YTDownloadsViewController.m in Sources */,
+				A95AE0311923B82B0039D78A /* AFXMLRequestOperation.m in Sources */,
+				A991F413191D8731003AB7D3 /* YouTuber.mm in Sources */,
+				A95AE0281923B82B0039D78A /* AFJSONRequestOperation.m in Sources */,
+				A95AE02D1923B82B0039D78A /* AFPropertyListRequestOperation.m in Sources */,
+				A95AE02A1923B82B0039D78A /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A93C65A51928228A00D50E11 /* ProgressHUD.m in Sources */,
+				A93C65A01928228A00D50E11 /* HCYoutubeParser.m in Sources */,
+				A93C65A21928228A00D50E11 /* MTStatusBarOverlay.m in Sources */,
+				A93C65A71928228A00D50E11 /* WYPopoverController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A991F418191D8731003AB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		A991F419191D8731003AB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		A991F41B191D8731003AB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouTuber/YouTuber-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = ipod;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		A991F41C191D8731003AB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouTuber/YouTuber-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = ipod;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A991F3FD191D8731003AB7D3 /* Build configuration list for PBXProject "YouTuber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A991F418191D8731003AB7D3 /* Debug */,
+				A991F419191D8731003AB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A991F41A191D8731003AB7D3 /* Build configuration list for PBXNativeTarget "YouTuber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A991F41B191D8731003AB7D3 /* Debug */,
+				A991F41C191D8731003AB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A991F3FA191D8731003AB7D3 /* Project object */;
+}

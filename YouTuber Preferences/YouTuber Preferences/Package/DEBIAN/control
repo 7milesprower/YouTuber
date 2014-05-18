@@ -1,0 +1,17 @@
+Package: com.freemanrepo.YouTuber-Preferences
+Name: YouTuber Preferences
+Version: 1.0-1
+Description: 
+Section: PreferenceBundles
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Majd Alfhaily
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

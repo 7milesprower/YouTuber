@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93C655E1927FA6100D50E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93C655D1927FA6100D50E11 /* Foundation.framework */; };
+		A93C65601927FA6100D50E11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93C655F1927FA6100D50E11 /* UIKit.framework */; };
+		A93C65621927FA6100D50E11 /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93C65611927FA6100D50E11 /* Preferences.framework */; };
+		A93C656D1927FA6100D50E11 /* YouTuber_PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93C656C1927FA6100D50E11 /* YouTuber_PreferencesController.m */; };
+		A93C65841928082700D50E11 /* InstalledAppReader.h in Headers */ = {isa = PBXBuildFile; fileRef = A93C65821928082700D50E11 /* InstalledAppReader.h */; };
+		A93C65851928082700D50E11 /* InstalledAppReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A93C65831928082700D50E11 /* InstalledAppReader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A93C655A1927FA6100D50E11 /* YouTuber Preferences.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YouTuber Preferences.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93C655D1927FA6100D50E11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A93C655F1927FA6100D50E11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A93C65611927FA6100D50E11 /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = Library/Frameworks/Preferences.framework; sourceTree = DEVELOPER_DIR; };
+		A93C65661927FA6100D50E11 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		A93C65671927FA6100D50E11 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		A93C65691927FA6100D50E11 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		A93C656A1927FA6100D50E11 /* YouTuber_Preferences-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YouTuber_Preferences-Info.plist"; sourceTree = "<group>"; };
+		A93C656B1927FA6100D50E11 /* YouTuber_PreferencesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouTuber_PreferencesController.h; sourceTree = "<group>"; };
+		A93C656C1927FA6100D50E11 /* YouTuber_PreferencesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouTuber_PreferencesController.m; sourceTree = "<group>"; };
+		A93C65711927FA6100D50E11 /* YouTuber_Preferences.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = YouTuber_Preferences.plist; path = Package/Library/PreferenceLoader/Preferences/YouTuber_Preferences.plist; sourceTree = "<group>"; };
+		A93C65741927FA6100D50E11 /* YouTuber_Preferences.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = YouTuber_Preferences.plist; path = "Package/Library/PreferenceBundles/YouTuber Preferences.bundle/YouTuber_Preferences.plist"; sourceTree = "<group>"; };
+		A93C65761927FA6100D50E11 /* YouTuber_PreferencesIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "YouTuber_PreferencesIcon@2x.png"; path = "Package/Library/PreferenceBundles/YouTuber Preferences.bundle/YouTuber_PreferencesIcon@2x.png"; sourceTree = "<group>"; };
+		A93C657B1927FA6100D50E11 /* com.freemanrepo.YouTuber_Preferences.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = com.freemanrepo.YouTuber_Preferences.plist; path = Package/var/mobile/Library/Preferences/com.freemanrepo.YouTuber_Preferences.plist; sourceTree = "<group>"; };
+		A93C657C1927FA6100D50E11 /* YouTuber Preferences-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YouTuber Preferences-Prefix.pch"; sourceTree = "<group>"; };
+		A93C65821928082700D50E11 /* InstalledAppReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstalledAppReader.h; sourceTree = "<group>"; };
+		A93C65831928082700D50E11 /* InstalledAppReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstalledAppReader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93C65561927FA6100D50E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93C655E1927FA6100D50E11 /* Foundation.framework in Frameworks */,
+				A93C65621927FA6100D50E11 /* Preferences.framework in Frameworks */,
+				A93C65601927FA6100D50E11 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93C65501927FA6100D50E11 = {
+			isa = PBXGroup;
+			children = (
+				A93C65631927FA6100D50E11 /* YouTuber Preferences */,
+				A93C655C1927FA6100D50E11 /* Frameworks */,
+				A93C655B1927FA6100D50E11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A93C655B1927FA6100D50E11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93C655A1927FA6100D50E11 /* YouTuber Preferences.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93C655C1927FA6100D50E11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A93C655D1927FA6100D50E11 /* Foundation.framework */,
+				A93C655F1927FA6100D50E11 /* UIKit.framework */,
+				A93C65611927FA6100D50E11 /* Preferences.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A93C65631927FA6100D50E11 /* YouTuber Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65821928082700D50E11 /* InstalledAppReader.h */,
+				A93C65831928082700D50E11 /* InstalledAppReader.m */,
+				A93C656B1927FA6100D50E11 /* YouTuber_PreferencesController.h */,
+				A93C656C1927FA6100D50E11 /* YouTuber_PreferencesController.m */,
+				A93C65641927FA6100D50E11 /* Package */,
+				A93C65681927FA6100D50E11 /* Supporting Files */,
+			);
+			path = "YouTuber Preferences";
+			sourceTree = "<group>";
+		};
+		A93C65641927FA6100D50E11 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65651927FA6100D50E11 /* DEBIAN */,
+				A93C656E1927FA6100D50E11 /* Library */,
+				A93C65771927FA6100D50E11 /* var */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		A93C65651927FA6100D50E11 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65661927FA6100D50E11 /* control.txt */,
+				A93C65671927FA6100D50E11 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		A93C65681927FA6100D50E11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65691927FA6100D50E11 /* PackageVersion.plist */,
+				A93C656A1927FA6100D50E11 /* YouTuber_Preferences-Info.plist */,
+				A93C657C1927FA6100D50E11 /* YouTuber Preferences-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A93C656E1927FA6100D50E11 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A93C656F1927FA6100D50E11 /* PreferenceLoader */,
+				A93C65721927FA6100D50E11 /* PreferenceBundles */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		A93C656F1927FA6100D50E11 /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65701927FA6100D50E11 /* Preferences */,
+			);
+			name = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		A93C65701927FA6100D50E11 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65711927FA6100D50E11 /* YouTuber_Preferences.plist */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		A93C65721927FA6100D50E11 /* PreferenceBundles */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65731927FA6100D50E11 /* ___PACKAGENAME___.bundle */,
+			);
+			name = PreferenceBundles;
+			sourceTree = "<group>";
+		};
+		A93C65731927FA6100D50E11 /* ___PACKAGENAME___.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65741927FA6100D50E11 /* YouTuber_Preferences.plist */,
+				A93C65761927FA6100D50E11 /* YouTuber_PreferencesIcon@2x.png */,
+			);
+			name = "___PACKAGENAME___.bundle";
+			sourceTree = "<group>";
+		};
+		A93C65771927FA6100D50E11 /* var */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65781927FA6100D50E11 /* mobile */,
+			);
+			name = var;
+			sourceTree = "<group>";
+		};
+		A93C65781927FA6100D50E11 /* mobile */ = {
+			isa = PBXGroup;
+			children = (
+				A93C65791927FA6100D50E11 /* Library */,
+			);
+			name = mobile;
+			sourceTree = "<group>";
+		};
+		A93C65791927FA6100D50E11 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A93C657A1927FA6100D50E11 /* Preferences */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		A93C657A1927FA6100D50E11 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				A93C657B1927FA6100D50E11 /* com.freemanrepo.YouTuber_Preferences.plist */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A93C65571927FA6100D50E11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93C65841928082700D50E11 /* InstalledAppReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A93C65591927FA6100D50E11 /* YouTuber Preferences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93C657F1927FA6100D50E11 /* Build configuration list for PBXNativeTarget "YouTuber Preferences" */;
+			buildPhases = (
+				A93C65551927FA6100D50E11 /* Sources */,
+				A93C65561927FA6100D50E11 /* Frameworks */,
+				A93C65571927FA6100D50E11 /* Headers */,
+				A93C65581927FA6100D50E11 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YouTuber Preferences";
+			productName = "YouTuber Preferences";
+			productReference = A93C655A1927FA6100D50E11 /* YouTuber Preferences.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93C65511927FA6100D50E11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A93C65541927FA6100D50E11 /* Build configuration list for PBXProject "YouTuber Preferences" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A93C65501927FA6100D50E11;
+			productRefGroup = A93C655B1927FA6100D50E11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93C65591927FA6100D50E11 /* YouTuber Preferences */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A93C65581927FA6100D50E11 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93C65551927FA6100D50E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93C656D1927FA6100D50E11 /* YouTuber_PreferencesController.m in Sources */,
+				A93C65851928082700D50E11 /* InstalledAppReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A93C657D1927FA6100D50E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		A93C657E1927FA6100D50E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		A93C65801927FA6100D50E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouTuber Preferences/YouTuber Preferences-Prefix.pch";
+				INFOPLIST_FILE = "/Users/Majd/Coding/YouTuber/YouTuber Preferences/YouTuber Preferences/YouTuber_Preferences-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = ipod;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		A93C65811927FA6100D50E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouTuber Preferences/YouTuber Preferences-Prefix.pch";
+				INFOPLIST_FILE = "/Users/Majd/Coding/YouTuber/YouTuber Preferences/YouTuber Preferences/YouTuber_Preferences-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = ipod;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93C65541927FA6100D50E11 /* Build configuration list for PBXProject "YouTuber Preferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93C657D1927FA6100D50E11 /* Debug */,
+				A93C657E1927FA6100D50E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93C657F1927FA6100D50E11 /* Build configuration list for PBXNativeTarget "YouTuber Preferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93C65801927FA6100D50E11 /* Debug */,
+				A93C65811927FA6100D50E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A93C65511927FA6100D50E11 /* Project object */;
+}
